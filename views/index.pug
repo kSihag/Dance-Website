@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Komal Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                    
+            li #[a(href="/") Home]
+            li #[a(href="/") About ]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+    section#introSection 
+        div Welcome to Tip Toes Dance Studio
+        div.second Eat Dance Sleep Repeat 
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/move1.png")  
+                div.card-content 
+                    p This is the best dance academy.
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/move2.png")  
+                div.card-content 
+                    p This is the best dance academy.
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/move3.png")  
+                div.card-content 
+                    p This is the best dance academy.
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="static/s1.png",alt="sponsor image",class="spimage")
+            img(src="static/s3.png",alt="sponsor image",class="spimage")
+            img(src="static/s2.png",alt="sponsor image",class="spimage")
+            img(src="static/s44.png",alt="sponsor image",class="spimage")
+
+    footer#footer 
+        | Copyright © 2022 KomalDanceStudio.com || All rights reserved.
+    
+    script
+      include ../static/index.js

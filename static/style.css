@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lacquer', cursive;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 14px;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+    
+}
+#navbar{
+    height: 50px;
+    background-color:rgba(252, 93, 81, 0.849);
+    padding: 14px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 18px 15px;
+    color: rgb(248, 242, 242);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection {
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    flex-direction: column;
+    background: center/cover no-repeat url("/static/dance.jpg");
+    height: 330px;
+    background-color: rgb(119, 71, 71);
+}
+#introSection div.second{
+    font-size: 40px;
+    color:brown
+}
+#sponsorsSection {
+    height: 180px;
+    background-color: rgb(247, 162, 156);;
+
+}
+#missionSection{
+    height: 350px;
+    background-color:white;
+    margin: auto;
+    width: 60%;
+}
+#missionSection h2{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sponsorsSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer {
+    height: 40px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin: 43px 26px;
+    height: 200px;
+    padding-bottom: 70px;
+    background-color: rgb(114, 180, 241);
+}
+.card h3{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 17px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 80px;
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+.card-img img{
+    height: inherit;
+}
+#sponsors{
+    height: 100px;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+.spimage{
+    height: 80%;
+    margin: 15px;
+}
